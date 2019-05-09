@@ -1,11 +1,10 @@
-package base;
+package log4j;
 
 import org.apache.log4j.Logger;
 import org.junit.Test;
-import sun.jvm.hotspot.HelloWorld;
 
-public class Env {
-    private static Logger logger = Logger.getLogger(HelloWorld.class);
+public class Log4jTest {
+    private static Logger logger = Logger.getLogger(Log4jTest.class);
 
     @Test
     public void logLevel(){
